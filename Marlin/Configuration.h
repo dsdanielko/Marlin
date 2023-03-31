@@ -669,9 +669,9 @@
     #define DEFAULT_Ki_LIST {   1.54,   1.54 }
     #define DEFAULT_Kd_LIST {  76.55,  76.55 }
   #else
-    #define DEFAULT_Kp  31.29 //DK
-    #define DEFAULT_Ki   3.79 //DK
-    #define DEFAULT_Kd  64.58 //DK
+    #define DEFAULT_Kp  22.24 //DK
+    #define DEFAULT_Ki   2.07 //DK
+    #define DEFAULT_Kd  59.59 //DK
   #endif
 #endif
 
@@ -754,9 +754,9 @@
 
   // 120V 250W silicone heater into 4mm borosilicate (MendelMax 1.5+)
   // from FOPDT model - kp=.39 Tp=405 Tdead=66, Tc set to 79.2, aggressive factor of .15 (vs .1, 1, 10)
-  #define DEFAULT_bedKp 101.03 //DK
-  #define DEFAULT_bedKi 10.87 //DK
-  #define DEFAULT_bedKd 626.21 //DK
+  #define DEFAULT_bedKp 124.73 //DK
+  #define DEFAULT_bedKi 23.99 //DK
+  #define DEFAULT_bedKd 432.41 //DK
 
   // FIND YOUR OWN: "M303 E-1 C8 S90" to run autotune on the bed at 90 degreesC for 8 cycles.
 #endif // PIDTEMPBED
@@ -1545,7 +1545,7 @@
  *     |    [-]    |
  *     O-- FRONT --+
  */
-#define NOZZLE_TO_PROBE_OFFSET { -25, -6, -0.4 } //DK
+#define NOZZLE_TO_PROBE_OFFSET { -25, -6, -2.05 } //DK
 
 // Most probes should stay away from the edges of the bed, but
 // with NOZZLE_AS_PROBE this can be negative for a wider probing area.
