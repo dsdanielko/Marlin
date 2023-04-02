@@ -2194,7 +2194,7 @@
  * the probe to be unable to reach any points.
  */
 #if PROBE_SELECTED && !IS_KINEMATIC
-  #define PROBING_MARGIN_LEFT 35 //DK probe nozzle x offset + minimum x location
+  #define PROBING_MARGIN_LEFT 28 //DK probe nozzle x offset + minimum x location
   //#define PROBING_MARGIN_RIGHT PROBING_MARGIN
   //#define PROBING_MARGIN_FRONT PROBING_MARGIN
   //#define PROBING_MARGIN_BACK PROBING_MARGIN
