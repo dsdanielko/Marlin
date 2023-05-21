@@ -547,7 +547,7 @@
  *   999 : Dummy Table that ALWAYS reads 100°C or the temperature defined below.
  *
  */
-#define TEMP_SENSOR_0 13 //DK
+#define TEMP_SENSOR_0 1047 //DK
 #define TEMP_SENSOR_1 0
 #define TEMP_SENSOR_2 0
 #define TEMP_SENSOR_3 0
@@ -1561,7 +1561,7 @@
  *     |    [-]    |
  *     O-- FRONT --+
  */
-#define NOZZLE_TO_PROBE_OFFSET { 35, 3, -1.85 } //DK
+#define NOZZLE_TO_PROBE_OFFSET { 53, 13, -1.85 } //DK
 
 // Enable and set to use a specific tool for probing. Disable to allow any tool.
 #define PROBING_TOOL 0
@@ -1782,7 +1782,7 @@
 #define Y_BED_SIZE 217 //DK
 
 // Travel limits (linear=mm, rotational=°) after homing, corresponding to endstop positions.
-#define X_MIN_POS -9.8 //DK
+#define X_MIN_POS -20.3 //DK
 #define Y_MIN_POS -16.5 //DK
 #define Z_MIN_POS 0
 #define X_MAX_POS X_BED_SIZE
